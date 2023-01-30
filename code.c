@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 int main(void) {
-  int n;
+  int i;
   printf("Hello");
-  printf("kaisuu n=");
-  scanf("%d", &n);
-  while (n >= 0) {
-    printf("%d\n", n);
-    n--;
+  printf("kaisuu i=");
+  scanf("%d", &i);
+  for (i; i >= 0; i--) {
+    printf("%d", i);
   }
   return 0;
 }
